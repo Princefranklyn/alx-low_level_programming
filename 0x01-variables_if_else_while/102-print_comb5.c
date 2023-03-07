@@ -13,13 +13,13 @@ i = e = g = h = 48;
 while (h < 51)
 {
 	g = 48;
-	while (g < 51)
+	while (g < 58)
 	{
 		e = 48;
-		while (e < 51)
+		while (e < 58)
 		{
 			i = 48;
-			while (i < 51)
+			while (i < 58)
 			{
 				op1 = (h * 10) + g;
 				op2 = (e * 10) + i;
@@ -30,7 +30,7 @@ while (h < 51)
 					putchar(' ');
 					putchar(e);
 					putchar(i);
-					if (h == 50 && g == 49 && e == 50 && i == 49)
+					if (h == 57 && g == 56 && e == 57 && i == 57)
 						break;
 					putchar(',');
 					putchar(' ');
